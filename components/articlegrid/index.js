@@ -48,7 +48,7 @@ function ArticleGridHome({ newsList }) {
             <div
               className="col-xl-3 col-lg-5 col-md-6 col-12 p-3"
               key={index}
-              onClick={() => router.push("/articles/" + item.id)}
+              // onClick={() => router.push("/articles/" + item.id)}
             >
               <img
                 src={item?.data?.photo?.iv}
@@ -70,7 +70,7 @@ function ArticleGridHome({ newsList }) {
                   <br></br>
                 </div>
                 <BacaSelengkapnya
-                  link={"/articles/" + item.id}
+                  // link={"/articles/" + item.id}
                   color="#DF3034"
                 ></BacaSelengkapnya>
               </div>
@@ -80,7 +80,7 @@ function ArticleGridHome({ newsList }) {
         <div className="row justify-content-center my-4">
           <div className="col-12 text-center">
             <ButtonAlt
-              link="/articles"
+              // link="/articles"
               text="Lihat Lebih Banyak Artikel"
             ></ButtonAlt>
           </div>
@@ -93,7 +93,7 @@ function ArticleGridHome({ newsList }) {
             <div
               className="col-xl-3 col-lg-5 col-md-6 col-12 p-3"
               key={index}
-              onClick={() => router.push("/articles/" + item.id)}
+              // onClick={() => router.push("/articles/" + item.id)}
             >
               <img
                 src={item?.data?.photo?.iv}
@@ -115,7 +115,7 @@ function ArticleGridHome({ newsList }) {
                   <br></br>
                 </div>
                 <BacaSelengkapnya
-                  link={"/articles/" + item.id}
+                  // link={"/articles/" + item.id}
                   color="#DF3034"
                 ></BacaSelengkapnya>
               </div>
@@ -125,7 +125,7 @@ function ArticleGridHome({ newsList }) {
         <div className="row justify-content-center my-4">
           <div className="col-12 text-center">
             <ButtonAlt
-              link="/articles"
+              // link="/articles"
               text="Lihat Lebih Banyak Artikel"
             ></ButtonAlt>
           </div>

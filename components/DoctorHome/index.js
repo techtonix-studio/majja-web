@@ -73,7 +73,7 @@ function DoctorHome() {
                     className="col-xl-5 col-md-5 col-9 m-md-4 ms-4 me-0 my-3"
                     key={i}
                     data-aos="fade-up"
-                    onClick={() => router.push("/doctor")}
+                    // onClick={() => router.push("/doctor")}
                   >
                     <img
                       className="doctorImg align-self-center"
@@ -98,7 +98,7 @@ function DoctorHome() {
                             <p className="cardDokterText">{item.xp}</p>
                           </div>
                           <BacaSelengkapnya
-                            link={`/doctor`}
+                            // link={`/doctor`}
                             text="Booking Jadwal"
                             color={"#DF3034"}
                           ></BacaSelengkapnya>
@@ -128,7 +128,7 @@ function DoctorHome() {
                     className="col-xl-5 col-md-5 col-9 m-md-4 ms-4 me-0 my-3"
                     key={i}
                     data-aos="fade-up"
-                    onClick={() => router.push("/doctor")}
+                    // onClick={() => router.push("/doctor")}
                   >
                     <img
                       className="doctorImg align-self-center "
@@ -153,7 +153,7 @@ function DoctorHome() {
                             <p className="cardDokterText">{item.xp}</p>
                           </div>
                           <BacaSelengkapnya
-                            link={`/doctor`}
+                            // link={`/doctor`}
                             text="Booking Jadwal"
                             color={"#DF3034"}
                           ></BacaSelengkapnya>

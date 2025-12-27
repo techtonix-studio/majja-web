@@ -39,7 +39,7 @@ function DokterTerkait() {
                   <p className="cardDokterText">{item.xp}</p>
                 </div>
                 <BacaSelengkapnya
-                  link={`/booking/` + item.id}
+                  // link={`/booking/` + item.id}
                   text="Booking Jadwal"
                 ></BacaSelengkapnya>
               </div>

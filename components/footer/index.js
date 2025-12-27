@@ -56,14 +56,14 @@ function Footer() {
                   <p
                     className="footer-text"
                     style={{ cursor: "pointer" }}
-                    onClick={() => router.push("/doctor")}
+                    // onClick={() => router.push("/doctor")}
                   >
                     Doctors
                   </p>
                   <p
                     className="footer-text"
                     style={{ cursor: "pointer" }}
-                    onClick={() => router.push("/services")}
+                    // onClick={() => router.push("/services")}
                   >
                     Services
                   </p>
@@ -80,7 +80,7 @@ function Footer() {
                   <p
                     className="footer-text"
                     style={{ cursor: "pointer" }}
-                    onClick={() => router.push("/articles")}
+                    // onClick={() => router.push("/articles")}
                   >
                     Articles
                   </p>

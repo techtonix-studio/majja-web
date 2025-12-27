@@ -64,7 +64,7 @@ function ServicesPageContent() {
               image={item.icon}
               title={item.title}
               text={item.text}
-              link={"/services/" + item.id}
+              // link={"/services/" + item.id}
             ></CardLayanan>
           </div>
         ))}

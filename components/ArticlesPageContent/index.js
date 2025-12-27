@@ -69,11 +69,11 @@ function ArticlesPageContent() {
                   <CardBodyText>{item.text}</CardBodyText>
                 </CardBodyWrapper>
                 <BacaSelengkapnya
-                  link={
-                    "/articles/" +
-                    item.slug +
-                    moment(item.created).format("YYYYMMDD")
-                  }
+                  // link={
+                  //   "/articles/" +
+                  //   item.slug +
+                  //   moment(item.created).format("YYYYMMDD")
+                  // }
                 ></BacaSelengkapnya>
               </CardWrapper>
             </>

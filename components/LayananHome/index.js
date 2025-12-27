@@ -21,7 +21,7 @@ function LayananHome() {
                   image={item.icon}
                   title={item.title}
                   text={item.text}
-                  link={"/services/" + item.id}
+                  // link={"/services/" + item.id}
                 ></CardLayanan>
               </div>
             ))}
@@ -29,7 +29,7 @@ function LayananHome() {
           <div className="row justify-content-center my-4">
             <div className="col-12 text-center">
               <ButtonAlt
-                link="/services"
+                // link="/services"
                 text="Lihat Semua Layanan"
               ></ButtonAlt>
             </div>
@@ -48,7 +48,7 @@ function LayananHome() {
                   image={item.icon}
                   title={item.title}
                   text={item.text}
-                  link={"/services/" + item.id}
+                  // link={"/services/" + item.id}
                 ></CardLayanan>
               </div>
             ))}
@@ -56,7 +56,7 @@ function LayananHome() {
           <div className="row justify-content-center my-4">
             <div className="col-12 text-center">
               <ButtonAlt
-                link="/services"
+                // link="/services"
                 text="Lihat Semua Layanan"
               ></ButtonAlt>
             </div>

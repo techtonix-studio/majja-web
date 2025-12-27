@@ -20,7 +20,10 @@ function Hero() {
               sekarang juga!
             </p>
             <div className="hero-btn-wrapper">
-              <Button link="/doctor" text="Booking Jadwal"></Button>
+              <Button
+                // link="/doctor"
+                text="Booking Jadwal"
+              ></Button>
             </div>
           </div>
         </div>

@@ -197,14 +197,14 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/doctor">
+                  <Link href="/">
                     <LoginButtonMobile>Booking Jadwal</LoginButtonMobile>
                   </Link>
                 </li>
               </>
             )}
           </Menu>
-          <Link href="/doctor">
+          <Link href="/">
             <LoginButton>Booking Jadwal</LoginButton>
           </Link>
           <BurgerIcon onClick={toggleMenu}>

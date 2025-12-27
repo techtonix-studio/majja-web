@@ -87,7 +87,7 @@ function Articles({ data }) {
               <div
                 className="col-xl-3 col-lg-5 col-md-6 col-12 p-3"
                 key={index}
-                onClick={() => router.push("/articles/" + item?.id)}
+                // onClick={() => router.push("/articles/" + item?.id)}
               >
                 <>
                   <img
@@ -121,7 +121,7 @@ function Articles({ data }) {
                       </CardBodyWrapper>
                     </div>
                     <BacaSelengkapnya
-                      link={"/articles/" + item?.id}
+                    // link={"/articles/" + item?.id}
                     ></BacaSelengkapnya>
                   </CardWrapper>
                 </>

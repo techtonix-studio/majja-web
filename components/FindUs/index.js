@@ -87,7 +87,10 @@ function FindUs() {
                   </StyledSubTitle>
                 </StyledSectionWrapper>
                 <ButtonWrapper>
-                  <Button link="/doctor" text="Booking Sekarang"></Button>
+                  <Button
+                    // link="/doctor"
+                    text="Booking Sekarang"
+                  ></Button>
                 </ButtonWrapper>
               </div>
             </div>
@@ -159,7 +162,10 @@ function FindUs() {
                   </StyledSubTitle>
                 </StyledSectionWrapper>
                 <ButtonWrapper>
-                  <Button link="/doctor" text="Booking Sekarang"></Button>
+                  <Button
+                    // link="/doctor"
+                    text="Booking Sekarang"
+                  ></Button>
                 </ButtonWrapper>
               </div>
             </div>
